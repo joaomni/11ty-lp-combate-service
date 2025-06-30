@@ -1,7 +1,7 @@
 {
-  "name": "nunjucks-lp-allmovies",
+  "name": "11ty-lp-combateservice",
   "version": "1.0.0",
-  "description": "nunjucks-lp-allmovies",
+  "description": "11ty-lp-combateservice",
   "main": "index.js",
   "scripts": {
     "dev": "npx @11ty/eleventy --serve",

@@ -1,5 +1,5 @@
 ---
-title: 'Combate Service - Reparos em Goiânia'
+title: 'Combate Service - Dedetização e Limpeza Residencial em Goiânia'
 layout: layout.njk
 ---
 
