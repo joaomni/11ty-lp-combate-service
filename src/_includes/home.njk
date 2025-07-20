@@ -1,13 +1,47 @@
-<main class="bg-black/70 w-full h-screen flex flex-col items-center justify-center">
-  <div class="text-center text-white p-6 max-w-xl bg-[#143d73] bg-opacity-60 rounded-xl shadow-xl">
-  <h1 class="text-3xl font-bold mb-4">Precisando de Reparos em Casa?</h1>
-  <p class="mb-4 text-lg">
-    Dedetização, serviços hidráulicos, limpeza de ar condicionado, caixa d’água e calhas em Goiânia e região.
-  </p>
-  <p class="mb-6 text-yellow-400 font-semibold">10% de desconto no 1º serviço!</p>
-  <a id="btn1" href="https://api.whatsapp.com/send?phone=5562984076448&text=Ol%C3%A1!%20Vi%20seu%20an%C3%BAncio%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank"
-    class="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full transition">
-    Chamar no WhatsApp
-  </a>
-</div>
+<main class="bg-black/90 w-full h-screen flex flex-col items-center">
+	<div class="text-center text-white w-[580px] pt-16 pb-10 px-6">
+		<div class="flex flex-col items-center w-full text-lg mb-8">
+			<img
+				class="bg-white mb-10 rounded-full w-[96px] h-[96px] object-contain p-1"
+				src="./images/favicon.png"
+				width="96px"
+				height="96px"
+				alt="Logo Combate Service"
+			/>
+			<div class="flex flex-col items-center gap-1 mb-6">
+				<span class="font-bold text-2xl">Combate Service</span>
+				<a target="_blank" href="https://maps.app.goo.gl/Aks5PdsBBW8dYCJF8" class="flex items-center text-sm gap-1">
+					<i>{% include "svgPin.njk" %}</i>
+					<span>Goiânia e região</span>
+				</a>
+			</div>
+			<div class="flex flex-col gap-1 w-fit">
+				<div class="flex items-center gap-2">
+					<i>{% include "svgDedetizar.njk" %}</i>
+					<span>Dedetização</span>
+				</div>
+				<div class="flex items-center gap-2">
+					<i>{% include "svgDesentupidor.njk" %}</i>
+					<span>Desentupidor</span>
+				</div>
+				<div class="flex items-center gap-2">
+					<i>{% include "svgLimpeza.njk" %}</i>
+					<span>Limpeza de ar condicionado</span>
+				</div>
+				<div class="flex items-center gap-2">
+					<i>{% include "svgCalha.njk" %}</i>
+					<span>Limpeza de caixa d’água e calhas</span>
+				</div>
+			</div>
+		</div>
+		<a
+			id="btn1"
+			target="_blank"
+			class="flex items-center justify-center rounded-[30px] w-full h-auto min-h-16 px-11 bg-green-600 text-white border-2 border-solid border-green-600 transition hover:bg-transparent hover:text-white"
+			href="{{ whatsapp }}"
+		>
+			<span class="text-xl md:font-normal font-bold">Clique e Chame no WhatsApp</span>
+		</a>
+		<a id="btn2" href="{{ whatsapp }}" target="_blank" class="text-yellow-400 text-xs underline font-medium mt-1">10% de desconto no 1º serviço!</a>
+	</div>
 </main>

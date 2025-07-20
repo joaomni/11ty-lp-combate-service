@@ -36,3 +36,18 @@ body {
 	background-size: cover;
 	background-position: center;
 }
+.scroll-button {
+	transition: opacity 0.3s ease;
+}
+img,
+svg {
+	transition: transform 0.5s ease;
+}
+svg:hover {
+	transform: scale(1.2);
+	/* aumenta a imagem em 20% */
+}
+img:hover {
+	transform: scale(1.2);
+	/* aumenta a imagem em 20% */
+}
