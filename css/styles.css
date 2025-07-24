@@ -35,6 +35,8 @@ body {
 	background-image: url('25287de8-bde3-42db-9fab-989857b2fa2e.jpeg');
 	background-size: cover;
 	background-position: center;
+	font-family: sans-serif;
+	font-kerning: none;
 }
 .scroll-button {
 	transition: opacity 0.3s ease;

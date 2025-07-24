@@ -1,18 +1,18 @@
 <main class="bg-black/90 w-full h-screen flex flex-col items-center">
 	<div class="text-center text-white w-[580px] pt-16 pb-10 px-6">
-		<div class="flex flex-col items-center w-full text-lg mb-8">
+		<div class="flex flex-col items-center w-full text-lg mb-14">
 			<img
-				class="bg-white mb-10 rounded-full w-[96px] h-[96px] object-contain p-1"
+				class="bg-white mb-7 rounded-full w-[96px] h-[96px] object-contain p-1"
 				src="./images/favicon.png"
 				width="96px"
 				height="96px"
 				alt="Logo Combate Service"
 			/>
-			<div class="flex flex-col items-center gap-0.5 mb-6">
+			<div class="flex flex-col items-center gap-1 mb-7">
 				<span class="font-bold text-2xl">Combate Service</span>
 				<a target="_blank" href="https://maps.app.goo.gl/Aks5PdsBBW8dYCJF8" class="flex items-center text-sm gap-1">
 					<i>{% include "svgPin.njk" %}</i>
-					<span class="font-medium">Goiânia e região</span>
+					<span class="font-medium">Goiânia, Senador Canedo e região</span>
 				</a>
 			</div>
 			<div class="flex flex-col w-fit">
@@ -22,15 +22,15 @@
 				</div>
 				<div class="flex items-center gap-2">
 					<i>{% include "svgDesentupidor.njk" %}</i>
-					<span>Desentupidora</span>
+					<span>Desentupimento</span>
 				</div>
 				<div class="flex items-center gap-2">
 					<i>{% include "svgLimpeza.njk" %}</i>
-					<span>Limpeza de ar condicionado</span>
+					<span>Higienização de Ar Condicionado</span>
 				</div>
 				<div class="flex items-center gap-2">
 					<i>{% include "svgCalha.njk" %}</i>
-					<span>Limpeza de caixa d’água e calhas</span>
+					<span>Limpeza de Caixa D'água e Calhas</span>
 				</div>
 			</div>
 		</div>
@@ -42,6 +42,13 @@
 		>
 			<span class="text-xl md:font-normal font-bold">Clique e Chame no WhatsApp</span>
 		</a>
-		<a id="btn2" href="{{ whatsapp }}" target="_blank" class="text-yellow-400 text-xs underline font-medium mt-1">10% de desconto no 1º serviço!</a>
+		<a id="btn2" href="{{ whatsapp }}" target="_blank" class="text-green-400 text-xs underline font-medium mt-1" style="font-variant: small-caps;">10% de desconto no 1º serviço!</a>
 	</div>
 </main>
+<footer class="absolute bottom-3 text-center text-white">
+	<span class="sm:text-sm text-xs text-stone-400">
+		<p>© 2025 Combate Service</p>
+		<p class="italic">CNPJ: 61.229.645/0001-95 - Razão Social: 61.229.645 TIAGO FRANCISCO DE PAULA</p>
+		<p><a href="/privacidade/" class="underline hover:text-white">Política de Privacidade</a></p>
+	</span>
+</footer>
